@@ -1,27 +1,3 @@
-body {
-  background-color: #000000;
-}
-
-svg {
-  display: block;
-  position: absolute;
-  width: 800px;
-  height: 532px;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  overflow: visible;
-}
-
-text {
-  fill: #222;
-  fill-opacity: 0.5;
-  font-size: 3em;
-  filter: url(#fl-shadow);
-}
-
 .image {
   animation: opacity 25s infinite step-start;
   opacity: 0;
@@ -257,6 +233,24 @@ text {
 
 .im-mask-circles {
   mask: url(#m-circles);
+}
+
+body {
+  background-color: #111;
+}
+
+svg {
+  display: block;
+  width: 800px;
+  height: 532px;
+  overflow: visible;
+}
+
+text {
+  fill: #222;
+  fill-opacity: 0.5;
+  font-size: 3em;
+  filter: url(#fl-shadow);
 }
 
 /*# sourceMappingURL=index.css.map */
