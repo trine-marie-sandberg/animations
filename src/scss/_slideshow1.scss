@@ -1,4 +1,11 @@
 //src: https://codepen.io/yoksel/pen/GRQyMY 
+#slideshow {
+  display: block;
+  width: 800px;
+  height: 532px;
+  overflow: visible;
+}
+
 $duration: 25s;
 $steps: 4;
 $vert-max: 28*2;

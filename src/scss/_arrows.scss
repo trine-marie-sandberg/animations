@@ -1,0 +1,26 @@
+//https://www.youtube.com/watch?v=UTHgr6NLeEw
+//SVG = scalable vector grafics
+#arrows-svg {
+    padding: 10px;
+    margin: 20px;
+}
+
+#Polygon_2,
+#Polygon_3,
+#Polygon_4 {
+    transition: all 3s ease;
+}
+
+svg:hover #Polygon_2 {
+    transform: translateX(20%);
+}
+// svg:hover #Polygon_3 {
+//     transform: translateX(20%);
+// }
+svg:hover #Polygon_4 {
+    transform: translateX(20%);
+    opacity: 0;
+}
+svg:hover #Polygon_2 {
+    transform: translateX(0%);
+}

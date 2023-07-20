@@ -1,14 +1,9 @@
 @import "slideshow1";
+@import "arrows";
 
 body {
     background-color: #111;
 }
-svg {
-    display: block;
-    width: 800px;
-    height: 532px;
-    overflow: visible;
-  }
   text {
     fill: #222;
     fill-opacity: .5;
